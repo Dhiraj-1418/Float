@@ -9,7 +9,7 @@
 }
 body {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url("Images/Banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -52,11 +52,11 @@ body {
 }
 .home .div1 {
   height: 100vh;
-  width: 75vw;
+  width: 65vw;
 }
 .home .div2 {
   height: 100vh;
-  width: 25vw;
+  width: 35vw;
 }
 .home .div1 .text {
   position: absolute;
@@ -73,4 +73,44 @@ body {
 }
 .home .div1 .text a i {
   font-size: 32px;
+}
+.login
+{
+  position: relative;
+  top: 10%;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  background: white;
+}
+.log-con
+{
+  height: 400px;
+  width: 80%;
+
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+.log-con .p_
+{
+  margin-top:20px;
+  color: grey;
+}
+.log-con input
+{
+  height: 40px;
+  outline: none;
+border: none;
+background-color: rgb(201, 201, 201);
+  border-radius: 30px;
+  margin-top: 40px;
+  padding-left: 20px;
+  width: 100%;
+}
+.log-con .submit
+{
+  background-color: rgb(52, 52, 94);
+  color: white;
 }
