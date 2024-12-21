@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("Images/Banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(0.5px);
+}
+.navbar {
+  height: auto;
+  width: 100%;
+
+}
+.navbar-container {
+  height: 80px;
+  width: 80%;
+
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navbar-container ul li {
+  list-style: none;
+  padding-left: 10px;
+}
+.navbar .navbar-container ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.navbar .navbar-container ul {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.navbar-container .right li {
+  padding-right: 10px;
+}
+.home {
+  display: flex;
+}
+.home .div1 {
+  height: 100vh;
+  width: 75vw;
+}
+.home .div2 {
+  height: 100vh;
+  width: 25vw;
+}
+.home .div1 .text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 23%;
+  color: white;
+}
+.home .div1 .text a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.home .div1 .text a i {
+  font-size: 32px;
+}
